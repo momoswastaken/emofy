@@ -75,7 +75,9 @@ nav = st.sidebar.radio("", ["Home","Authors", "Play EmoFy"])
 
 if nav == "Authors":
     st.markdown("""<br>""", True)
+    st.markdown("## Group C7 SY-C ")
     st.markdown(""" 
+                
                 SHIVAM PADALKAR
                <br /><br />
                 SHREYAS NAGARKAR
