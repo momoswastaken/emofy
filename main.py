@@ -71,8 +71,22 @@ def emotion_find():
 
 st.title("EmoFy")
 
-nav = st.sidebar.radio("", ["Home","Play EmoFy"])
+nav = st.sidebar.radio("", ["Home","Authors", "Play EmoFy"])
 
+if nav == "Authors":
+    st.markdown("""<br>""", True)
+    st.markdown(""" 
+                SHIVAM PADALKAR
+               <br /><br />
+                SHREYAS NAGARKAR
+                 <br /><br />
+                OM SHINTRE
+                 <br /><br />
+                MUHAMMAD PARKAR
+
+              
+             """, True)
+    
 if nav == "Home":
     st.markdown("""<br>""", True)
     st.markdown(""" Welcome to EmoFy
