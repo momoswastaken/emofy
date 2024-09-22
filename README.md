@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/emofy.git
+   git clone https://github.com/momoswastaken/emofy.git
    cd emofy
    ```
 2. Run the Streamlit app:
