@@ -37,7 +37,7 @@ pip install -r requirements.txt
    ```
 2. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 3. Allow access to your camera for emotion detection, and enjoy personalized music recommendations!
 
